@@ -1,0 +1,13 @@
+git commit - новый комит
+git checkout NAME - выбрать ветку NAME
+git branch NAME - создать новую ветку с именем NAME
+git merge NAME - объединить текущую ветку с веткой NAME
+git rebase NAME - переместить текущую ветку под ветку с имененм NAME 
+git checkout NAME^ - перейти к родителю NAME
+git checkout NAME~N - перейти к N-ному родителю NAME
+git branch -f NAME HEAD~N - перемещает ветку NAME к N-ному родителю вверх
+git reset HEAD~N - отменяет N последних коммитов
+git revert HEAD - создает коммит отменяющий предыдущий коммит - применяется для pushed
+git remote -v - показывает с чем сейчас связан репозиторий
+git status - показывает что происходит вообще
+
